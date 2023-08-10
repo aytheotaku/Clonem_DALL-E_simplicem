@@ -3,7 +3,7 @@
 Interacting with this api, you are able to generate images from text prompts, powered by OpenAI
 
 ## Getting Started(Tweaking this for yourself)
-To get started, clone this repository to your local machine and run `npm install` to install the required dependencies. You will also need to create a `.env` file in the root directory of the project following the format in the env_example file located in the root of this repository, you will need an openai key.  Build/Transpile the typescript files by running `npx tsc` or take a look at my scripts for build and start commands.
+To get started, clone this repository to your local machine and run `npm install` to install the required dependencies. You will also need to create a `.env` file in the root directory of the project following the format in the env_example file located in the root of this repository, you will need an openai key.  Build/Transpile the typescript files by running `npx tsc` or take a look at my scripts in the `package.json` for build and start commands.
 
 ---
 
@@ -15,7 +15,7 @@ Returns status of api.
 
 ###  
 
-POST `/api/v1/register`
+POST `/api/image`
 
 The request body needs to be in JSON format and must include one property
 
