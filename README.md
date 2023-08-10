@@ -35,7 +35,7 @@ Example, Successful Response
 {
   "success": "true",
   "status": "201",
-  "url" :  "`resulting url pointing to generated image`"
+  "url" :  "https://oaidalleapiprodscus.blob.core.windows.net/private/org-6zJMa1aQ0Euw1bxfTlB2jOt9/user-zr6EGd2dDBqo7BHAcCIXXxb7/img-LVr3IMvw7Sa5FZWSIM205JjS.png?st=2023-08-10T03%3A44%3A23Z&se=2023-08-10T05%3A44%3A23Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-08-09T17%3A00%3A01Z&ske=2023-08-10T17%3A00%3A01Z&sks=b&skv=2021-08-06&sig=71X7ICKcbxs0sBxjHw74rH/URJmwFFvjEvzueqWQyh8%3D"
 }
 ```
 Example Request
