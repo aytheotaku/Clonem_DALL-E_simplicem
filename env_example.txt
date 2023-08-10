@@ -1,0 +1,2 @@
+PORT=YOUR PORT GOES HERE
+OPENAIKEY= YOUR OPENAIKEY GOES HERE  // visit the openai platform to learn more https://platform.openai.com/docs/quickstart
