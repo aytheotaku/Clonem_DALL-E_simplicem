@@ -15,7 +15,8 @@ app.use(express.urlencoded({ extended: true }))
 
 
 app.get('/', getHomePage)
-app.post('/image', generateImageController);
+app.get('/api', (req:Request, res:Response, next:NextFunction) => res.redirect('/'))
+app.post('/api/image', generateImageController);
 
 
 
