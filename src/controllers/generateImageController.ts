@@ -11,7 +11,7 @@ export const generateImageController = async (req: Request, res: Response, next:
 
     try {
         const imageLink: string = await generateImage(prompt)
-        res.json({ imageLink })
+        res.json({ success:'true', status:'200', url:imageLink })
     } 
     catch (error) {
         next(error)
