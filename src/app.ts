@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 
 
 app.get('/', getHomePage)
-app.post('/generateImage', generateImageController);
+app.post('/image', generateImageController);
 
 
 
